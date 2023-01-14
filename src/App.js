@@ -1,13 +1,17 @@
-import './App.css'
-import JBKwon from './JBKwon.png'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-function App() {
+import Home from './pages/Home'
+import Resume from './pages/Resume'
+
+const App = () => {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={JBKwon} className='App-logo' alt='logo' />
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path='/resume' element={<Resume />} />
+      </Routes>
+    </Router>
   )
 }
 
