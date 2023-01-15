@@ -27,7 +27,7 @@ function Resume() {
       <div className='Example__container'>
         <div className='Example__container__document'>
           <Document
-            file='./assets/resume.pdf'
+            file='./assets/Joonbeom_Kwon_Resume.pdf'
             onLoadSuccess={onDocumentLoadSuccess}
             options={options}
           >
