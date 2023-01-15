@@ -218,6 +218,8 @@ class Home extends React.Component {
   }
 
   render() {
+    document.title = 'Home | Joonbeom Kwon'
+
     return (
       <div className='App'>
         <div className='main'>
@@ -228,12 +230,10 @@ class Home extends React.Component {
           ></canvas>
           <div className='over'>
             <div className='untouchable'>
-              {' '}
-              <h1>Joonbeom Kwon</h1>
+              <h1>Joonbeom Kwon</h1>{' '}
             </div>
-
-            <a href='/resume' class='button'>
-              <u>View Résumé</u>
+            <a href='/resume' className='button'>
+              <u>View Resume</u>
             </a>
           </div>
         </div>

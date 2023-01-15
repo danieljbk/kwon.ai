@@ -22,6 +22,8 @@ function Resume() {
     setNumPages(numPages)
   }
 
+  document.title = 'Resume | Joonbeom Kwon'
+
   return (
     <div className='Example'>
       <div className='Example__container'>
