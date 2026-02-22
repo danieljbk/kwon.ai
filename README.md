@@ -1,3 +1,16 @@
 # www.jbkwon.com
 
-Main website for JBKwon LC.
+Personal website for Joonbeom Kwon.
+
+## Development
+
+```
+npm install
+npm start
+```
+
+## Build
+
+```
+npm run build
+```
