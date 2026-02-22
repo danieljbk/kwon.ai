@@ -1,4 +1,4 @@
-# www.jbkwon.com
+# kwon.ai
 
 Personal website for Joonbeom Kwon.
 
