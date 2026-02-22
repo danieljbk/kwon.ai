@@ -26,31 +26,36 @@ body {
 
 .over h1 {
   font-weight: 300;
-  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  font-size: clamp(1.8rem, 5vw, 3rem);
   letter-spacing: 0.12em;
-  margin: 0 0 1.2rem;
+  margin: 0 0 1.6rem;
 }
 
 .socials {
   display: flex;
   justify-content: center;
-  gap: 1.4rem;
+  gap: 1.8rem;
 }
 
 .socials a {
   display: inline-flex;
+  padding: 0.5rem;
   color: white;
-  opacity: 0.4;
-  transition: opacity 0.3s ease;
+  opacity: 0.5;
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+  cursor: pointer;
 }
 
 .socials a:hover {
   opacity: 1;
+  transform: translateY(-2px);
 }
 
 .socials svg {
-  width: 18px;
-  height: 18px;
+  width: 28px;
+  height: 28px;
 }
 
 @keyframes fadeIn {
