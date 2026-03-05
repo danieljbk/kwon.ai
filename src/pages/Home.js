@@ -210,7 +210,7 @@ function Home() {
               </svg>
             </a>
             <a
-              href='https://www.linkedin.com/in/djkwon/'
+              href='https://www.linkedin.com/in/kwonai/'
               target='_blank'
               rel='noopener noreferrer'
               aria-label='LinkedIn'
